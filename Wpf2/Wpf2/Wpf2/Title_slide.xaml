@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Wpf2.Title_slide"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="550">
+    <Grid>
+        <Canvas  Name="c" HorizontalAlignment="Stretch" Height="400" VerticalAlignment="Stretch"  Width="550" ClipToBounds="True">
+            <TextBox Name="title_box"  Height="Auto" Foreground="White" TextWrapping="NoWrap" Canvas.Top="253" Width="550" FontSize="36" FontWeight="Bold" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" TextAlignment="Center"/>
+            <TextBox Name="subtitle_box" Height="Auto" Foreground="White" TextWrapping="Wrap"  Canvas.Top="298" Width="550" AcceptsReturn="True"  FontSize="24" FontWeight="Bold" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  />
+        </Canvas>
+
+    </Grid>
+</UserControl>
